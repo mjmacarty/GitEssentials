@@ -91,8 +91,8 @@ git commit -m "Initial commit: Add project files and README"
 git log 
 
 ### You can also undo a commit either unstage the files or revert files to a previous version
-git reset --soft HEAD~1 (just unstage your commited files)
-git reset --hard HEAD~1 (any changes to all committed files undone to the previous commit) **use carefully**
+```git reset --soft HEAD~1``` (just unstage your commited files)
+```git reset --hard HEAD~1``` (any changes to all committed files undone to the previous commit) **use carefully**
 
 
 ## 7. Link and push to Github w/git  & gh
