@@ -37,8 +37,8 @@ authenticate your entire machine using a simple browser handshake.
 
 Run the following command:
 ```bash
-gh auth login
-
+gh auth login```
+* Follow the prompts to authenticate via HTTPS and web browser
 ## 3. Configure Global Identity (use your guthub username and email)
 Before creating your first repository, tell Git who you are so your commits are properly attributed.
 ### Set your global username
