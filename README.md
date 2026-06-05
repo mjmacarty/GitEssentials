@@ -6,7 +6,7 @@ for authentication and remote creation, alongside explicit **Git remote** comman
 
 ---
 
-# 1. Prerequisites & Installation
+## 1. Prerequisites & Installation
 
 1. **Git:** Download and install from [git-scm.com](https://git-scm.com/).
 2. **GitHub Account:** Sign up for a free account at [github.com](https://github.com/).
@@ -30,7 +30,7 @@ for authentication and remote creation, alongside explicit **Git remote** comman
 
 ---
 
-# 2. Authenticate with GitHub CLI (`gh`)
+## 2. Authenticate with GitHub CLI (`gh`)
 
 Instead of manually generating Personal Access Tokens (PATs) or managing SSH keys, 
 authenticate your entire machine using a simple browser handshake.
@@ -39,7 +39,7 @@ Run the following command:
 * At the command line enter:
 ```gh auth login```
 * Follow the prompts to authenticate via HTTPS and web browser
-# 3. Configure Global Identity (use your guthub username and email)
+## 3. Configure Global Identity (use your guthub username and email)
 Before creating your first repository, tell Git who you are so your commits are properly attributed.
 ### Set your global username
 git config --global user.name "Your Name"
@@ -49,7 +49,7 @@ git config --global user.email "your.email@example.com"
 
 **Note: It is extremely import not to try to set up two github accounts**
 
-# 4. Create a local project/files
+## 4. Create a local project/files
 Use standard terminal commands to navigate, create a project folder, and generate starter files.
 ### Check where you currently are in the file system
 pwd
@@ -60,13 +60,13 @@ mkdir [repo-name]
 ### Move into your new directory
 cd [repo-name]
 
-# Create an empty sample file
+### Create an empty sample file
 touch sample-file.txt
 
-# Create a file with markdown text directly from the command line
+### Create a file with markdown text directly from the command line
 echo "# Git/Github Basics Repository" > README.md
 
-# 5. Initial Git & Track files
+## 5. Initial Git & Track files
 Turn your ordinary directory into a Git-tracked repository and prepare your files for a commit.
 
 ### Initialize the repository
@@ -82,7 +82,7 @@ git add . or git add -A
 git status
 
 
-# 6. Make First Commit
+## 6. Make First Commit
 Commit staged files to **local** Git history
 ### Commit your changes with a descriptive message
 git commit -m "Initial commit: Add project files and README"
@@ -96,7 +96,7 @@ git log
 ```git reset --hard HEAD~1``` (any changes to all committed files undone to the previous commit) **use carefully**
 
 
-# 7. Link and push to Github w/git  & gh
+## 7. Link and push to Github w/git  & gh
 Typically you make a repo on Github website directly. 
 However you can also do this from the command line with the utility
 gh.
@@ -113,7 +113,7 @@ git remote add origin [https://github.com/YOUR_GITHUB_USERNAME/demo-repo.git](ht
 ### 4. Push your local main branch up to the remote origin
 git push -u origin main
 
-# 8. You can consolidate all of the repo creation steps into a single command with uv
+## 8. You can consolidate all of the repo creation steps into a single command with uv
 
 ### 1. If you don't have uv first run pip install uv at the command line
 ### 2. Initial a git repo with the command uv init demo-repo
