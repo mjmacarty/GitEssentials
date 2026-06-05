@@ -116,6 +116,6 @@ git push -u origin main
 ## 8. You can consolidate all of the repo creation steps into a single command with uv
 
 ### 1. If you don't have uv first run pip install uv at the command line
-### 2. Initial a git repo with the command uv init demo-repo
+### 2. Initialize a git repo with the command uv init demo-repo
   * creates the repo, including a Python virtual environment, README.md, pyproject.toml and .gitignore
 ### 3. Connect your repo to github using one of the methods above  
